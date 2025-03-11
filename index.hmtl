@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Top 10 Favorite Foods</title>
+    <style>
+        body {
+            background-image: url('background.jpg'); /* Add a suitable background image */
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            color: black;
+            text-align: center;
+        }
+        .container {
+            width: 90%;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .food-item {
+            width: 250px;
+            margin: 15px;
+            padding: 15px;
+            border: 2px solid red;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            text-align: center;
+        }
+        img {
+            width: 100px;
+            height: 100px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>My Top 10 Favorite Foods</h1>
+    <div class="container">
+        <div class="food-item">
+            <h2>Top 1: Lechon Manok</h2>
+            <img src="https://assets.unileversolutions.com/recipes-v2/248623.png" alt="Lechon Manok">
+            <p>Lechon Manok is a Filipino-style roasted chicken, marinated in a blend of spices, soy sauce, and calamansi, then cooked over an open flame or rotisserie for a smoky, flavorful taste. It is often served with a dipping sauce made of vinegar, soy sauce, and garlic..</p>
+        </div>
+        <div class="food-item">
+            <h2>Top 2: Isaw</h2>
+            <img src="https://i0.wp.com/www.astigvegan.com/wp-content/uploads/2013/07/vegan-isaw-coiled-spiral-shape.jpg?ssl=1" alt="Isaw">
+            <p>Isaw is a popular Filipino street food made from grilled chicken or pork intestines, marinated and skewered before being charred over hot coals. It is typically enjoyed with a vinegar-based dipping sauce or a sweet and spicy glaze.</p>
+        </div>
+        <div class="food-item">
+            <h2>Top 3: Halo-Halo</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQblR2z35T-xxWqBvVutELyVYKlHDuytIZUPg&s" alt="Halo-Halo">
+            <p>Halo-halo is a famous Filipino dessert made with a mix of shaved ice, sweetened fruits, jellies, and beans, topped with leche flan, ube halaya, and a scoop of ice cream. It is served in a tall glass or bowl with evaporated milk poured over, creating a refreshing and colorful treat.</p>
+        </div>
+        <div class="food-item">
+            <h2>Top 4: Leche Flan</h2>
+            <img src="https://bitesbybianca.com/wp-content/uploads/2024/12/filipino-leche-flan-cover-1.jpg" alt="Leche Flan">
+            <p>Leche Flan is a rich and creamy Filipino caramel custard dessert made from egg yolks, condensed milk, and evaporated milk, steamed to perfection. It has a smooth, melt-in-your-mouth texture with a sweet caramel topping.</p>
+        </div>
+        <div class="food-item">
+            <h2>Top 5: Pork Sisig</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1nj7fB7gJmZvQHCs-sL4GzO29RJxGMr6fYA&s" alt="Pork Sisig">
+            <p>Pork Sisig is a popular Filipino dish made from crispy, chopped pig’s face and ears, mixed with onions, chili, and seasoned with calamansi and mayonnaise. It is traditionally served on a sizzling plate, often topped with a raw egg for extra richness.</p>
+        </div>
+        <div class="food-item">
+            <h2>Top 6: Kare-Kare</h2>
+            <img src="https://api.lifegetsbetter.ph/uploads/recipes/featured/Kare-KAre.jpg" alt="Kare-Kare">
+            <p>Kare-Kare is a traditional Filipino stew made with oxtail, tripe, and vegetables, cooked in a rich and creamy peanut sauce. It is typically served with bagoong (fermented shrimp paste) on the side for added flavor.</p>
+        </div>
+        <div class="food-item">
+            <h2>Top 7: Chicken Adobo</h2>
+            <img src="https://www.seriouseats.com/thmb/uc8nb040OwgXekR9obuhEqm8WoI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2019__10__20191023-chicken-adobo-vicky-wasik-19-12ce105a2e1a44dfb1e2673775118064.jpg" alt="Chicken Adobo">
+            <p>Chicken Adobo is a classic Filipino dish made by simmering chicken in a savory and tangy sauce of soy sauce, vinegar, garlic, bay leaves, and black pepper. It is known for its rich, bold flavors and is best enjoyed with steamed rice.</p>
+        </div>
+        <div class="food-item">
+            <h2>Top 8: Pork Barbecue</h2>
+            <img src="https://yummykitchentv.com/wp-content/uploads/2022/03/pork-barbecue-yummy-kitchen.jpg" alt="Pork Barbecue">
+            <p>Pork Barbecue is a popular Filipino street food consisting of marinated pork slices skewered on bamboo sticks and grilled over charcoal. It is coated with a sweet and savory glaze, giving it a smoky, caramelized flavor.</p>
+        </div>
+        <div class="food-item">
+            <h2>Top 9: Lumpia</h2>
+            <img src="https://www.allrecipes.com/thmb/ndOxfSY8xgiuTmuoHbunghG88AA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/35151-traditional-filipino-lumpia-ddmfs-hero-3x4-0744-6a66461864c9437da74828a882f2c42a.jpg" alt="Lumpia">
+            <p>Lumpia is a Filipino spring roll made with a thin pastry wrapper filled with either seasoned meat and vegetables (fried) or fresh ingredients (unfried). It is often served with a sweet and sour dipping sauce or garlic vinegar.</p>
+        </div>
+        <div class="food-item">
+            <h2>Top 10: Bicol Express</h2>
+            <img src="https://www.kawalingpinoy.com/wp-content/uploads/2019/05/spicy-bicol-express-2.jpg" alt="Bicol Express">
+            <p>Bicol Express is a spicy Filipino dish made with pork cooked in coconut milk, shrimp paste, and lots of chili peppers. Originating from the Bicol region, it is known for its rich, creamy, and fiery flavor.</p>
+        </div>
+    </div>
+</body>
+</html>
